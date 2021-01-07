@@ -249,7 +249,7 @@ Esta análise será realizada utilizando-se o software `R` versão `r getRversio
 
 <!-- # Resultados -->
 
-# Exceções e Observações
+<!-- # Exceções e Observações -->
 
 <!-- # Conclusões -->
 
