@@ -231,7 +231,7 @@ ES.study <- pwr.t.test(n = 10, power = 0.8)
 ```
 
 O desfecho primário deste estudo é uma variável numérica e será analisada com o teste t de Student.
-Na ausência de estimativas prévias da média e desvio padrão do desfecho primário (EVD) a análise de poder só pode ser feita usando-se o método de Cohen (Cohen, 1998) de tamanho de efeito padronizado.
+Na ausência de estimativas prévias da média e desvio padrão do desfecho primário (EVD) a análise de poder só pode ser feita usando-se o método de Cohen (Cohen, 1988) de tamanho de efeito padronizado.
 Esta abordagem utiliza apenas os dados obtidos na amostra de estudo e Cohen sugere a seguinte interpretação de tamanhos de efeito padronizados:
 
 - efeito pequeno: d = 0.2
