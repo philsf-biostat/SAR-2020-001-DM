@@ -72,6 +72,12 @@ colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
 
 # Lista de abreviaturas
 
+- DM:
+- EVD:
+- HAS:
+- HT:
+- IVC:
+
 # Introdução
 
 ## Contexto
