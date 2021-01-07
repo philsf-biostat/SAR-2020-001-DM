@@ -82,6 +82,58 @@ colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
 
 # Limpeza dos dados
 
+Os dados recebidos serão reorganizados em uma tabela retangular, agrupando todos os casos em linhas com uma coluna por variável.
+A coluna ID será redefinida de modo que haja um ID único para cada participante incluído no estudo, independente do grupo.
+Com isso, a tabela de dados analíticos apresentará uma linha para cada observação das variáveis, i.e., cada um dos vinte participantes incluídos no estudo.
+
+As seguintes novas variáveis serão criadas a partir para a análise:
+
+- **EVD dif:** diferença entre EVD pré e pós (numérica)
+- **Dominante:** se o lado acometido era o lado dominante do participante (dicotômica)
+
+A tabela de dados analíticos será criada de acordo com a seguinte estrutura da Tabela 1.
+
+```{r tab.dados}
+tab.dados <- tibble::tibble(
+  ID = c(1:3, "...", 20),
+  Idade = "",
+  Sexo = "",
+  Grupo = "",
+  "EVD Pré" = "",
+  "EVD Pós" = "",
+  "EVD dif" = "",
+  "Lado dominante" = "",
+  "Lado acometido" = "",
+  "Dominante" = "",
+  Artrose = "",
+  "Tempo artrose" = "",
+  "Statisfação" = "",
+  "Retorno Profissão" = ""
+  )
+pander(tab.dados, split.table = Inf)
+```
+
+Table: **Tabela 1** Estrutura da nova tabela de dados analíticos
+
+As comorbidades serão redefinidas como variáveis dicotômicas e reorganizadas em colunas independentes.
+As colunas serão acrescentadas à tabela de dados, seguindo a estrutura apresentada na Tabela 2.
+
+```{r tab.dados.comorb}
+tab.dados.comorb <- tibble::tibble(
+  ID = c(1:3, "...", 20),
+
+  "(colunas tabela 1...)" = "",
+  HAS = "",
+  DM = "",
+  Tabagismo = "",
+  Hipotireoidismo = "",
+  IVC = ""
+  )
+pander(tab.dados.comorb, split.table = Inf)
+```
+
+Table: **Tabela 2** Representação das comorbidades na tabela de dados analíticos
+
 # Variáveis do estudo
 
 ## Desfechos primário e secundários
