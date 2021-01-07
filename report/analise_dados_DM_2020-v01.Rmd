@@ -19,7 +19,7 @@ output:
     fig_width: 6
     reference_docx: misc/style.docx
     toc: yes
-subtitle: 'RELATÓRIO: analise_dados_DM_2020'
+subtitle: 'RELATÓRIO: analise_dados_DM_2020-v01'
 toc-title: "Sumário"
 ---
 
@@ -47,7 +47,7 @@ kable(history)
 
 ---
 
-# Assinaturas
+<!-- **Assinaturas** -->
 
 ```{r, echo=FALSE}
 sig.field <- "__________________________"
@@ -67,7 +67,7 @@ rownames(sigs) <- NULL
 colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
 
 # pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
-kable(sigs)
+# kable(sigs)
 ```
 
 # Lista de abreviaturas
