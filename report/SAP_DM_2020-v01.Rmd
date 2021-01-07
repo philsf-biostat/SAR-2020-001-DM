@@ -138,7 +138,29 @@ Table: **Tabela 2** Representação das comorbidades na tabela de dados analíti
 
 ## Desfechos primário e secundários
 
+Serão avaliados quatro desfechos na comparação entre os dois grupos de participantes:
+
+**desfecho primário**
+
+- diferença na EVD pré e pós nos dois grupos
+
+**desfechos secundários**
+
+- alteração degenerativa (artrose)
+- Grau de satisfação
+- Retorno à profissão
+
 ## Covariáveis
+
+- Idade
+- Sexo
+- Acometimento no lado dominante
+- Comorbidades
+  - HAS
+  - DM
+  - Tabagismo
+  - Hipotireoidismo
+  - IVC
 
 # Métodos estatísticos
 
