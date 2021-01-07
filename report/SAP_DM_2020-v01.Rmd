@@ -136,8 +136,8 @@ tab.dados.comorb <- tibble::tibble(
   "(colunas tabela 1...)" = "",
   HAS = "",
   DM = "",
-  Tabagismo = "",
-  Hipotireoidismo = "",
+  TABAGISMO = "",
+  HT = "",
   IVC = ""
   )
 pander(tab.dados.comorb, split.table = Inf)
@@ -170,7 +170,7 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
   - HAS
   - DM
   - Tabagismo
-  - Hipotireoidismo
+  - HT
   - IVC
 
 # Métodos estatísticos
