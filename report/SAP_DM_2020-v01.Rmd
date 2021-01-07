@@ -185,6 +185,16 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
 
 ### Análise descritiva
 
+As variáveis numéricas serão descritas como média e desvio padrão.
+As variáveis categóricas serão descritas como frequência e proporção.
+As proporções serão apresentadas como porcentagem.
+
+A análise descritiva será dividida em duas tabelas:
+
+- tabela das características dos participantes do estudo, apresentando as covariáveis descritas na seção 4.2
+- tabela descritiva dos desfechos do estudo descritos na seção 4.1
+
+Ambas as tabelas apresentarão os dados estratificados nos dois grupos.
 
 ```{r tab.descr}
 
@@ -192,6 +202,10 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
 
 ### Análise inferencial
 
+A comparação de variáveis numéricas entre os dois grupos será avaliada com o teste t de Student não pareado.
+O p-valor do teste t de student será apresentado na tabela descritiva dos resultados
+
+A comparação de variáveis categóricas entre os dois grupos será avaliada com o teste exato de Fisher.
 
 ```{r tab.res}
 
