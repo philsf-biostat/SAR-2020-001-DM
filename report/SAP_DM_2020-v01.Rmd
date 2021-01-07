@@ -168,7 +168,18 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
 
 ### Análise descritiva
 
+
+```{r tab.descr}
+
+```
+
 ### Análise inferencial
+
+
+```{r tab.res}
+
+```
+
 
 ### Modelagem estatística
 
