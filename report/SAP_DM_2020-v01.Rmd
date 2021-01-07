@@ -159,20 +159,21 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
 
 **desfecho primário**
 
-- diferença na EVD pré e pós nos dois grupos
+- Diferença na EVD pré e pós nos dois grupos (numérica)
 
 **desfechos secundários**
 
-- alteração degenerativa (artrose)
-- Grau de satisfação
-- Retorno à profissão
+- Alteração degenerativa (artrose) (dicotômica)
+- Grau de satisfação (numérico)
+- Retorno à profissão (dicotômica)
 
 ## Covariáveis
 
-- Idade
-- Sexo
-- Acometimento no lado dominante
-- Comorbidades
+- Idade (em anos)
+- Sexo (feminino/masculino)
+- Acometimento no lado dominante (direito/esquerdo)
+- Tempo até a artrose (em anos)
+- Comorbidades (dicotômicas)
   - HAS
   - DM
   - Tabagismo
