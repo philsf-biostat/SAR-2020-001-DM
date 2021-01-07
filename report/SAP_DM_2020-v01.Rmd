@@ -91,6 +91,18 @@ As seguintes novas variáveis serão criadas a partir para a análise:
 - **EVD dif:** diferença entre EVD pré e pós (numérica)
 - **Dominante:** se o lado acometido era o lado dominante do participante (dicotômica)
 
+As seguintes variáveis serão limpas para adequação nas análises:
+
+- **Tempo artrose:** convertida em valores numéricos
+  - valores possíveis: número (anos) ou célula vazia
+- **Comorbidades:** redefinidas como variáveis dicotômicas
+  - reorganizadas em colunas independentes
+  - valores possíveis: nome da comorbidade ou célula vazia
+- **Retorno:** Esta coluna é repetida em todas as quatro planilhas
+  - serão utilizados as duas primeiras ocorrências deste dado:
+    - Folha 1 - Tabela 1 - Volar
+    - Folha 1 - Tabela 2 - Dorsal
+
 A tabela de dados analíticos será criada de acordo com a seguinte estrutura da Tabela 1.
 
 ```{r tab.dados}
@@ -108,15 +120,14 @@ tab.dados <- tibble::tibble(
   Artrose = "",
   "Tempo artrose" = "",
   "Statisfação" = "",
-  "Retorno Profissão" = ""
+  "Retorno" = ""
   )
 pander(tab.dados, split.table = Inf)
 ```
 
 Table: **Tabela 1** Estrutura da nova tabela de dados analíticos
 
-As comorbidades serão redefinidas como variáveis dicotômicas e reorganizadas em colunas independentes.
-As colunas serão acrescentadas à tabela de dados, seguindo a estrutura apresentada na Tabela 2.
+As colunas de comorbidades serão acrescentadas à tabela de dados, seguindo a estrutura apresentada na Tabela 2.
 
 ```{r tab.dados.comorb}
 tab.dados.comorb <- tibble::tibble(
