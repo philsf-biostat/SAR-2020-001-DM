@@ -192,7 +192,7 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
 ```
 
 
-### Modelagem estatística
+<!-- ### Modelagem estatística -->
 
 ## Significância e Intervalos de Confiança
 
