@@ -72,10 +72,10 @@ colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
 
 # Lista de abreviaturas
 
-- DM:
+- DM: Diabetes mellitus
 - EVD:
-- HAS:
-- HT:
+- HAS: Hipertensão arterial sistêmica
+- HT: Hipotireoidismo
 - IVC:
 
 # Introdução
