@@ -196,6 +196,9 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
 
 ## Significância e Intervalos de Confiança
 
+Todas as análises serão feitas com nível de significância de 5%.
+Todos os testes de significância e intervalos de confiança calculados serão bilaterais.
+
 ## Tamanho da amostra e Poder
 
 ```{r}
