@@ -22,3 +22,8 @@ cat.vars <- setdiff(names(dados), num.vars)
 
 # cols categóricas como factor
 dados[, c(cat.vars) := lapply(.SD, factor), .SDcols = cat.vars]
+
+# grupos de variáveis -----------------------------------------------------
+
+covars <- c("IDADE", "SEXO", "DOMINANTE", "HAS", "DM", "TABAGISMO", "HT", "IVC")
+desfechos <- c("EVD", "SATISFAÇÃO", "RETORNO", "ARTROSE", "TEMPO ARTROSE")
