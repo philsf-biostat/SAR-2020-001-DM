@@ -17,7 +17,7 @@ dados[, DOMINANTE := `LADO ACOMETIDO` == `LADO DOMINANTE`]
 dados$RETORNO <- dados$RETORNO == "SIM"
 
 # colunas numéricas e categóricas
-num.vars <- c("EVD PRÉ", "EVD PÓS", "DOMINANTE", "IDADE", "EVD", "TEMPO ARTROSE", "RETORNO")
+num.vars <- c("EVD PRÉ", "EVD PÓS", "DOMINANTE", "IDADE", "EVD", "TEMPO ARTROSE", "RETORNO", "SATISFAÇÃO")
 cat.vars <- setdiff(names(dados), num.vars)
 
 # cols categóricas como factor
