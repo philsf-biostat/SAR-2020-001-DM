@@ -13,8 +13,11 @@ dados[, DOMINANTE := `LADO ACOMETIDO` == `LADO DOMINANTE`]
 
 # data cleaning -----------------------------------------------------------
 
+# RETORNO como booleana
+dados$RETORNO <- dados$RETORNO == "SIM"
+
 # colunas numéricas e categóricas
-num.vars <- c("EVD PRÉ", "EVD PÓS", "DOMINANTE", "IDADE", "EVD", "TEMPO ARTROSE")
+num.vars <- c("EVD PRÉ", "EVD PÓS", "DOMINANTE", "IDADE", "EVD", "TEMPO ARTROSE", "RETORNO")
 cat.vars <- setdiff(names(dados), num.vars)
 
 # cols categóricas como factor
