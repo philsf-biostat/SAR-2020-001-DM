@@ -11,3 +11,8 @@ desfechos <- c("EVD", "SATISFAÇÃO", "RETORNO", "ARTROSE", "TEMPO ARTROSE")
 
 tab1.raw <- CreateTableOne(vars = covars, strata = "GRUPO", data = dados)
 tab1 <- print(tab1.raw, exact = TRUE)
+
+# tabela 2 - avaliação das vias cirúrgicas --------------------------------
+
+tab2.raw <- CreateTableOne(vars = desfechos, strata = "GRUPO", data = dados)
+tab2 <- print(tab2.raw, exact = TRUE)
