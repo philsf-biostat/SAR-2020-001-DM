@@ -1,8 +1,13 @@
 source('scripts/input.R', encoding = 'UTF-8')
-
+library(philsfmisc)
 library(tableone)
 
-covars <- c("IDADE", "SEXO", "DOMINANTE", "TEMPO ARTROSE", "HAS", "DM", "TABAGISMO", "HT", "IVC")
+# grupos de variáveis -----------------------------------------------------
 
-tab1 <- CreateTableOne(vars = covars, strata = "GRUPO", data = dados)
-print(tab1, exact = TRUE)
+covars <- c("IDADE", "SEXO", "DOMINANTE", "HAS", "DM", "TABAGISMO", "HT", "IVC")
+desfechos <- c("EVD", "SATISFAÇÃO", "RETORNO", "ARTROSE", "TEMPO ARTROSE")
+
+# tabela 1 - características dos participantes ----------------------------
+
+tab1.raw <- CreateTableOne(vars = covars, strata = "GRUPO", data = dados)
+tab1 <- print(tab1.raw, exact = TRUE)
