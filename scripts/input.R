@@ -16,6 +16,9 @@ dados[, DOMINANTE := `LADO ACOMETIDO` == `LADO DOMINANTE`]
 # RETORNO como booleana
 dados$RETORNO <- dados$RETORNO == "SIM"
 
+# ARTROSE como booleana
+dados$ARTROSE <- dados$ARTROSE == "SIM"
+
 # colunas numéricas e categóricas
 num.vars <- c("EVD PRÉ", "EVD PÓS", "DOMINANTE", "IDADE", "EVD", "TEMPO ARTROSE", "RETORNO", "SATISFAÇÃO")
 cat.vars <- setdiff(names(dados), num.vars)
