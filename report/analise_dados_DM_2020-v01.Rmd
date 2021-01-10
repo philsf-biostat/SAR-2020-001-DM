@@ -141,6 +141,11 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
+Vinte participantes foram incluídos neste estudo.
+A maioria destes eram homens (85%), com idade média de aproximadamente 55 anos (Tabela 1).
+Dentre as comorbidades avaliadas a hipertensão arterial foi a de maior prevalência ocorrendo em 9 participantes (45%).
+A enfermidade foi observada no lado dominante, tanto em participantes destros ou canhotos, em aproximadamente metade da amostra de estudo (55%).
+
 ```{r tabela1}
 pander(tab1)
 ```
