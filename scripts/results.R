@@ -22,3 +22,4 @@ rownames(tab1) <- tab1.names # restaurar rownames
 
 tab2.raw <- CreateTableOne(vars = desfechos, strata = "GRUPO", data = dados)
 tab2 <- print(tab2.raw, exact = TRUE, printToggle = FALSE, dropEqual = TRUE)
+tab2[, 4] <- c("", "¹", "¹", "²", "²", "¹")
