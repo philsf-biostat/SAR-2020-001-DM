@@ -106,6 +106,33 @@ As seguintes variáveis serão limpas para adequação nas análises:
 
 # Metodologia
 
+## Desfechos primário e secundários
+
+Serão avaliados quatro desfechos na comparação entre os dois grupos de participantes:
+
+**desfecho primário**
+
+- Diferença na EVD pré e pós nos dois grupos (numérica)
+
+**desfechos secundários**
+
+- Alteração degenerativa (artrose) (dicotômica)
+- Grau de satisfação (numérico)
+- Retorno à profissão (dicotômica)
+
+## Covariáveis
+
+- Idade (em anos)
+- Sexo (feminino/masculino)
+- Acometimento no lado dominante (direito/esquerdo)
+- Tempo até a artrose (em anos)
+- Comorbidades (dicotômicas)
+  - HAS
+  - DM
+  - Tabagismo
+  - HT
+  - IVC
+
 As variáveis numéricas serão descritas como média e desvio padrão.
 As variáveis categóricas serão descritas como frequência e proporção.
 As proporções serão apresentadas como porcentagem.
