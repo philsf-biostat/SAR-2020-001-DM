@@ -19,6 +19,13 @@ dados$RETORNO <- dados$RETORNO == "SIM"
 # ARTROSE como booleana
 dados$ARTROSE <- dados$ARTROSE == "SIM"
 
+# COMORBIDADES como booleana
+dados$HAS <- dados$HAS == "HAS"
+dados$DM <- dados$DM == "DM"
+dados$TABAGISMO <- dados$TABAGISMO == "TABAGISMO"
+dados$HT <- dados$HT == "HT"
+dados$IVC <- dados$IVC == "IVC"
+
 # colunas numéricas e categóricas
 num.vars <- c("EVD PRÉ", "EVD PÓS", "DOMINANTE", "IDADE", "EVD", "TEMPO ARTROSE", "RETORNO", "SATISFAÇÃO")
 cat.vars <- setdiff(names(dados), num.vars)
