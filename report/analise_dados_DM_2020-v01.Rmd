@@ -93,6 +93,11 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 pander(tab1)
 ```
 
+
+```{r tabela2}
+pander(tab2)
+```
+
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões
