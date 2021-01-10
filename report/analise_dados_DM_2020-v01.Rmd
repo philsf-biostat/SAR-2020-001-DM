@@ -145,7 +145,13 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 pander(tab1)
 ```
 
-Table: **Tabela 1**
+Table: **Tabela 1** Características clínicas e epidemiológicas dos participantes de estudo.
+mean (SD): média (desvio padrão);
+DOMINANTE: se o punho acometido era o lado dominante do participante;
+DM: Diabetes mellitus;
+HAS: Hipertensão arterial sistêmica;
+HT: Hipotireoidismo;
+IVC:
 
 ```{r tabela2}
 pander(tab2, split.table = Inf)
