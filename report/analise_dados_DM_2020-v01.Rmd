@@ -114,30 +114,15 @@ As seguintes variáveis foram limpas para adequação nas análises:
 
 ## Variáveis e desfechos analisados
 
-foram avaliados quatro desfechos na comparação entre os dois grupos de participantes:
+Foram avaliados quatro desfechos na comparação entre os dois grupos de participantes.
+O desfecho primário considerado foi a diferença na EVD pré e pós nos dois grupos.
+Além deste foram avaliados os seguintes desfechos secundários: Alteração degenerativa (artrose) bem como o tempo (em anos) para sua observação, o grau de satisfação e o retorno à profissão.
 
-**desfecho primário**
-
-- Diferença na EVD pré e pós nos dois grupos (numérica)
-
-**desfechos secundários**
-
-- Alteração degenerativa (artrose) (dicotômica)
-- Grau de satisfação (numérico)
-- Retorno à profissão (dicotômica)
-
-**Covariáveis**
-
-- Idade (em anos)
-- Sexo (feminino/masculino)
-- Acometimento no lado dominante (direito/esquerdo)
-- Tempo até a artrose (em anos)
-- Comorbidades (dicotômicas)
-  - HAS
-  - DM
-  - Tabagismo
-  - HT
-  - IVC
+Adicionalmente as seguintes características foram descritas para todos os participantes do estudo:
+Idade (em anos),
+Sexo (feminino/masculino),
+Acometimento no lado dominante
+e a presença de comorbidades (HAS, DM, Tabagismo, HT e IVC).
 
 ## Métodos estatísticos
 
