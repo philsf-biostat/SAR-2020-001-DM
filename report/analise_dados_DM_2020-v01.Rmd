@@ -96,7 +96,7 @@ pander(tab1)
 Table: **Tabela 1**
 
 ```{r tabela2}
-pander(tab2)
+pander(tab2, split.table = Inf)
 ```
 
 Table: **Tabela 2**
