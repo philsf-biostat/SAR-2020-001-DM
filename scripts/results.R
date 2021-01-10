@@ -19,4 +19,4 @@ tab1 <- rbind(tab1.sex, tab1) # juntar as tabelas
 # tabela 2 - avaliação das vias cirúrgicas --------------------------------
 
 tab2.raw <- CreateTableOne(vars = desfechos, strata = "GRUPO", data = dados)
-tab2 <- print(tab2.raw, exact = TRUE, printToggle = FALSE)
+tab2 <- print(tab2.raw, exact = TRUE, printToggle = FALSE, dropEqual = TRUE)
