@@ -27,7 +27,7 @@ dados$HT <- dados$HT == "HT"
 dados$IVC <- dados$IVC == "IVC"
 
 # colunas numéricas e categóricas
-num.vars <- c("EVD PRÉ", "EVD PÓS", "DOMINANTE", "IDADE", "EVD", "TEMPO ARTROSE", "RETORNO", "SATISFAÇÃO")
+num.vars <- c("EVD PRÉ", "EVD PÓS", "DOMINANTE", "IDADE", "EVD", "TEMPO ARTROSE", "RETORNO", "SATISFAÇÃO", "ARTROSE", "HAS", "DM", "TABAGISMO", "HT", "IVC")
 cat.vars <- setdiff(names(dados), num.vars)
 
 # cols categóricas como factor
