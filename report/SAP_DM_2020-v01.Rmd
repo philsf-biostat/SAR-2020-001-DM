@@ -85,6 +85,8 @@ colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
 
 ## Objetivos
 
+Avaliar se há diferença entre uso de das técnicas de acesso cirúrgico volar e dorsal em indicadores clínicos.
+
 ## Hipóteses
 
 # Limpeza dos dados
