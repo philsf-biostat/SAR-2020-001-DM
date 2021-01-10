@@ -15,6 +15,20 @@ dados[DOMINANTE == FALSE, DOMINANTE := "NÃO"]
 
 # data cleaning -----------------------------------------------------------
 
+# colunas numéricas e categóricas
+num.vars <- c("EVD PRÉ", "EVD PÓS", "IDADE", "EVD", "TEMPO ARTROSE", "SATISFAÇÃO")
+cat.vars <- setdiff(names(dados), num.vars)
+
+# cols categóricas como factor
+dados[, c(cat.vars) := lapply(.SD, factor), .SDcols = cat.vars]
+
+# grupos de variáveis -----------------------------------------------------
+
+covars <- c("IDADE", "SEXO", "DOMINANTE", "HAS", "DM", "TABAGISMO", "HT", "IVC")
+desfechos <- c("EVD", "SATISFAÇÃO", "RETORNO", "ARTROSE", "TEMPO ARTROSE")
+
+# obsoleto ----------------------------------------------------------------
+
 # # RETORNO como booleana
 # dados$RETORNO <- dados$RETORNO == "SIM"
 # 
@@ -33,14 +47,3 @@ dados[DOMINANTE == FALSE, DOMINANTE := "NÃO"]
 # dados$IVC <- dados$IVC == "IVC"
 # dados[is.na(IVC), IVC := FALSE]
 
-# colunas numéricas e categóricas
-num.vars <- c("EVD PRÉ", "EVD PÓS", "IDADE", "EVD", "TEMPO ARTROSE", "SATISFAÇÃO")
-cat.vars <- setdiff(names(dados), num.vars)
-
-# cols categóricas como factor
-dados[, c(cat.vars) := lapply(.SD, factor), .SDcols = cat.vars]
-
-# grupos de variáveis -----------------------------------------------------
-
-covars <- c("IDADE", "SEXO", "DOMINANTE", "HAS", "DM", "TABAGISMO", "HT", "IVC")
-desfechos <- c("EVD", "SATISFAÇÃO", "RETORNO", "ARTROSE", "TEMPO ARTROSE")
