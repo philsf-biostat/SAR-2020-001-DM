@@ -1,7 +1,7 @@
 ---
-title: "Análise Estatística de ..."
+title: "Análise estatística de estudo de carpectomias comparando vias de acesso dorsal e volar"
 author: '**De:** Felipe Figueiredo **Para:** Diego Rezende Martins'
-date: '**Data: ** dd/mm/aaaa'
+date: '**Data: ** 10/01/2021'
 output:
   html_document:
     fig_caption: yes
@@ -60,7 +60,7 @@ Avaliar se há diferença entre uso de das técnicas de acesso cirúrgico volar 
 
 Os dados recebidos foram reorganizados em uma tabela retangular, agrupando todos os casos em linhas com uma coluna por variável.
 A coluna ID foi redefinida de modo que haja um ID único para cada participante incluído no estudo, independente do grupo.
-Com isso, a tabela de dados analíticos aprensenta uma linha para cada observação das variáveis, i.e., cada um dos vinte participantes incluídos no estudo.
+Com isso, a tabela de dados analíticos apresenta uma linha para cada observação das variáveis, i.e., cada um dos vinte participantes incluídos no estudo.
 
 As seguintes novas variáveis foram criadas a partir para a análise:
 
@@ -99,7 +99,7 @@ As variáveis numéricas foram descritas como média e desvio padrão.
 As variáveis categóricas foram descritas como frequência e proporção.
 As proporções foram apresentadas como porcentagem.
 A comparação de variáveis numéricas entre os dois grupos foi avaliada com o teste t de Student não pareado.
-O p-valor do teste t de student foi apresentado na tabela descritiva dos resultados
+O p-valor do teste t de Student foi apresentado na tabela descritiva dos resultados
 A comparação de variáveis categóricas entre os dois grupos foi avaliada com o teste exato de Fisher.
 Todas as análises foram feitas com nível de significância de 5%.
 Todos os testes de significância e intervalos de confiança calculados foram bilaterais.
@@ -183,6 +183,9 @@ Não há evidências de diferença no EVD ao comparar as vias acesso dorsal e vo
 Não há também evidências de diferença no grau de satisfação com o procedimento, na ocorrência de artrose nem no tempo até a observação de artrose.
 
 # Referências
+
+- SAP_DM_2020-v01: Plano de Análise Estatística de estudo de carpectomias comparando vias de acesso dorsal e volar.
+- Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Hillsdale,NJ: Lawrence Erlbaum.
 
 # Apêndice - Dados utilizados
 
