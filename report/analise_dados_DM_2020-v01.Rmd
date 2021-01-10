@@ -87,6 +87,8 @@ source('scripts/results.R', encoding = 'UTF-8')
 
 ## Objetivos
 
+Avaliar se há diferença entre uso de das técnicas de acesso cirúrgico volar e dorsal em indicadores clínicos.
+
 ## Recepção e tratamento dos dados
 
 Os dados recebidos foram reorganizados em uma tabela retangular, agrupando todos os casos em linhas com uma coluna por variável.
