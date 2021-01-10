@@ -106,6 +106,15 @@ As seguintes variáveis serão limpas para adequação nas análises:
 
 # Metodologia
 
+As variáveis numéricas serão descritas como média e desvio padrão.
+As variáveis categóricas serão descritas como frequência e proporção.
+As proporções serão apresentadas como porcentagem.
+A comparação de variáveis numéricas entre os dois grupos será avaliada com o teste t de Student não pareado.
+O p-valor do teste t de student será apresentado na tabela descritiva dos resultados
+A comparação de variáveis categóricas entre os dois grupos será avaliada com o teste exato de Fisher.
+Todas as análises serão feitas com nível de significância de 5%.
+Todos os testes de significância e intervalos de confiança calculados serão bilaterais.
+
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
 
 # Resultados
