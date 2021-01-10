@@ -89,6 +89,10 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
+```{r tabela1}
+pander(tab1)
+```
+
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões
