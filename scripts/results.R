@@ -7,7 +7,6 @@ library(tableone)
 # separar sexo da tab1
 tab1.raw <- CreateTableOne(vars = covars,  data = dados)
 tab1 <- print(tab1.raw, exact = TRUE, printToggle = FALSE, dropEqual = TRUE, cramVars = "SEXO")
-colnames(tab1) <- NULL
 
 # tabela 2 - avaliação das vias cirúrgicas --------------------------------
 
