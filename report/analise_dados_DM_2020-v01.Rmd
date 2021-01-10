@@ -106,7 +106,7 @@ As seguintes variáveis serão limpas para adequação nas análises:
 
 # Metodologia
 
-## Desfechos primário e secundários
+## Variáveis e desfechos analisados
 
 Serão avaliados quatro desfechos na comparação entre os dois grupos de participantes:
 
@@ -120,7 +120,7 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
 - Grau de satisfação (numérico)
 - Retorno à profissão (dicotômica)
 
-## Covariáveis
+**Covariáveis**
 
 - Idade (em anos)
 - Sexo (feminino/masculino)
@@ -132,6 +132,8 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
   - Tabagismo
   - HT
   - IVC
+
+## Métodos estatísticos
 
 As variáveis numéricas serão descritas como média e desvio padrão.
 As variáveis categóricas serão descritas como frequência e proporção.
