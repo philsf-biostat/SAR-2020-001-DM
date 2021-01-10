@@ -162,6 +162,10 @@ Se esta amostra fosse representativa, isto indicaria que não deve haver associa
 Salientamos que além deste estudo (n = 20) ser muito pequeno para avaliar este tipo de hipótese, o estudo não foi desenho de modo a calcular a incidência.
 Assim esta observação reflete apenas o resultado de associação, e não causalidade.
 
+A tabela 2 exibe as comparações entre os dois grupos de estudo.
+Não há evidências nesta amostra de que a troca de acesso cirúrgico altere significativamente o EVD pós-operatório.
+Também não foi possível detectar diferença na taxa de retorno ao trabalho após o procedimento, na ocorrência de artrose e, nos casos em que houve artrose, no tempo até sua ocorrência.
+
 ```{r tabela2}
 pander(tab2, split.table = Inf)
 ```
