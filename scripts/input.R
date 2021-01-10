@@ -21,10 +21,15 @@ dados$ARTROSE <- dados$ARTROSE == "SIM"
 
 # COMORBIDADES como booleana
 dados$HAS <- dados$HAS == "HAS"
+dados[is.na(HAS), HAS := FALSE] 
 dados$DM <- dados$DM == "DM"
+dados[is.na(DM), DM := FALSE]
 dados$TABAGISMO <- dados$TABAGISMO == "TABAGISMO"
+dados[is.na(TABAGISMO), TABAGISMO := FALSE]
 dados$HT <- dados$HT == "HT"
+dados[is.na(HT), HT := FALSE]
 dados$IVC <- dados$IVC == "IVC"
+dados[is.na(IVC), IVC := FALSE]
 
 # colunas numéricas e categóricas
 num.vars <- c("EVD PRÉ", "EVD PÓS", "DOMINANTE", "IDADE", "EVD", "TEMPO ARTROSE", "RETORNO", "SATISFAÇÃO", "ARTROSE", "HAS", "DM", "TABAGISMO", "HT", "IVC")
