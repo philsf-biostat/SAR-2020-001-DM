@@ -93,11 +93,14 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 pander(tab1)
 ```
 
+Table: **Tabela 1**
 
 ```{r tabela2}
 pander(tab2)
 ```
 
+Table: **Tabela 2**
+¹ teste t de Student, ² teste exato de Fisher.
 <!-- # Exceções e Desvios do teste -->
 
 # Conclusões
