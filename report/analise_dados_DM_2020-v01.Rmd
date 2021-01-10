@@ -83,6 +83,27 @@ source('scripts/results.R', encoding = 'UTF-8')
 
 ## Recepção e tratamento dos dados
 
+Os dados recebidos serão reorganizados em uma tabela retangular, agrupando todos os casos em linhas com uma coluna por variável.
+A coluna ID será redefinida de modo que haja um ID único para cada participante incluído no estudo, independente do grupo.
+Com isso, a tabela de dados analíticos apresentará uma linha para cada observação das variáveis, i.e., cada um dos vinte participantes incluídos no estudo.
+
+As seguintes novas variáveis serão criadas a partir para a análise:
+
+- **EVD dif:** diferença entre EVD pré e pós (numérica)
+- **Dominante:** se o lado acometido era o lado dominante do participante (dicotômica)
+
+As seguintes variáveis serão limpas para adequação nas análises:
+
+- **Tempo artrose:** convertida em valores numéricos
+  - valores possíveis: número (anos) ou célula vazia
+- **Comorbidades:** redefinidas como variáveis dicotômicas
+  - reorganizadas em colunas independentes
+  - valores possíveis: nome da comorbidade ou célula vazia
+- **Retorno:** Esta coluna é repetida em todas as quatro planilhas
+  - serão utilizados as duas primeiras ocorrências deste dado:
+    - Folha 1 - Tabela 1 - Volar
+    - Folha 1 - Tabela 2 - Dorsal
+
 # Metodologia
 
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
