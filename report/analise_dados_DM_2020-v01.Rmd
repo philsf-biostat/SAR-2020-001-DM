@@ -157,7 +157,12 @@ IVC:
 pander(tab2, split.table = Inf)
 ```
 
-Table: **Tabela 2**
+Table: **Tabela 2** Comparação dos desfechos clínicos nas duas vias cirúrgicas.
+mean (SD): média (desvio padrão);
+SATISFAÇÃO: grau de satisfação com o procedimento;
+RETORNO: se o participante retornou às atividades laborais dentro do período de observação;
+ARTROSE: se foi detectada alteração denegerativa nos exames radiográficos;
+TEMPO ARTROSE: medido em anos.
 ¹ teste t de Student, ² teste exato de Fisher.
 <!-- # Exceções e Desvios do teste -->
 
