@@ -83,16 +83,16 @@ source('scripts/results.R', encoding = 'UTF-8')
 
 ## Recepção e tratamento dos dados
 
-Os dados recebidos serão reorganizados em uma tabela retangular, agrupando todos os casos em linhas com uma coluna por variável.
-A coluna ID será redefinida de modo que haja um ID único para cada participante incluído no estudo, independente do grupo.
-Com isso, a tabela de dados analíticos apresentará uma linha para cada observação das variáveis, i.e., cada um dos vinte participantes incluídos no estudo.
+Os dados recebidos foram reorganizados em uma tabela retangular, agrupando todos os casos em linhas com uma coluna por variável.
+A coluna ID foi redefinida de modo que haja um ID único para cada participante incluído no estudo, independente do grupo.
+Com isso, a tabela de dados analíticos aprensenta uma linha para cada observação das variáveis, i.e., cada um dos vinte participantes incluídos no estudo.
 
-As seguintes novas variáveis serão criadas a partir para a análise:
+As seguintes novas variáveis foram criadas a partir para a análise:
 
 - **EVD dif:** diferença entre EVD pré e pós (numérica)
 - **Dominante:** se o lado acometido era o lado dominante do participante (dicotômica)
 
-As seguintes variáveis serão limpas para adequação nas análises:
+As seguintes variáveis foram limpas para adequação nas análises:
 
 - **Tempo artrose:** convertida em valores numéricos
   - valores possíveis: número (anos) ou célula vazia
@@ -100,7 +100,7 @@ As seguintes variáveis serão limpas para adequação nas análises:
   - reorganizadas em colunas independentes
   - valores possíveis: nome da comorbidade ou célula vazia
 - **Retorno:** Esta coluna é repetida em todas as quatro planilhas
-  - serão utilizados as duas primeiras ocorrências deste dado:
+  - foram utilizados as duas primeiras ocorrências deste dado:
     - Folha 1 - Tabela 1 - Volar
     - Folha 1 - Tabela 2 - Dorsal
 
@@ -108,7 +108,7 @@ As seguintes variáveis serão limpas para adequação nas análises:
 
 ## Variáveis e desfechos analisados
 
-Serão avaliados quatro desfechos na comparação entre os dois grupos de participantes:
+foram avaliados quatro desfechos na comparação entre os dois grupos de participantes:
 
 **desfecho primário**
 
@@ -135,14 +135,14 @@ Serão avaliados quatro desfechos na comparação entre os dois grupos de partic
 
 ## Métodos estatísticos
 
-As variáveis numéricas serão descritas como média e desvio padrão.
-As variáveis categóricas serão descritas como frequência e proporção.
-As proporções serão apresentadas como porcentagem.
-A comparação de variáveis numéricas entre os dois grupos será avaliada com o teste t de Student não pareado.
-O p-valor do teste t de student será apresentado na tabela descritiva dos resultados
-A comparação de variáveis categóricas entre os dois grupos será avaliada com o teste exato de Fisher.
-Todas as análises serão feitas com nível de significância de 5%.
-Todos os testes de significância e intervalos de confiança calculados serão bilaterais.
+As variáveis numéricas foram descritas como média e desvio padrão.
+As variáveis categóricas foram descritas como frequência e proporção.
+As proporções foram apresentadas como porcentagem.
+A comparação de variáveis numéricas entre os dois grupos foi avaliada com o teste t de Student não pareado.
+O p-valor do teste t de student foi apresentado na tabela descritiva dos resultados
+A comparação de variáveis categóricas entre os dois grupos foi avaliada com o teste exato de Fisher.
+Todas as análises foram feitas com nível de significância de 5%.
+Todos os testes de significância e intervalos de confiança calculados foram bilaterais.
 
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
 
