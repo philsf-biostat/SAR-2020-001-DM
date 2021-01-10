@@ -1,6 +1,6 @@
 ---
 title: "Análise Estatística de ..."
-author: '**De:** Felipe Figueiredo **Para:** ___'
+author: '**De:** Felipe Figueiredo **Para:** Diego Rezende Martins'
 date: '**Data: ** dd/mm/aaaa'
 output:
   html_document:
@@ -142,5 +142,8 @@ Table: **Tabela 2**
 
 # Referências
 
-# Apêndice
+# Apêndice - Dados utilizados
+
+Os dados utilizados neste relatório não podem ser publicados online por questões de sigilo.
+
 
