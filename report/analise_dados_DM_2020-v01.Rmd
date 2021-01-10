@@ -37,7 +37,7 @@ panderOptions('table.style', 'rmarkdown')
 
 **Histórico do documento**
 
-```{r, echo = FALSE}
+```{r versão, echo = FALSE}
 Version <- c("01")
 Changes <- c("Versão inicial")
 history <- cbind(Version, Changes)
@@ -50,7 +50,7 @@ kable(history)
 
 <!-- **Assinaturas** -->
 
-```{r, echo=FALSE}
+```{r assinaturas, echo=FALSE}
 sig.field <- "__________________________"
 date.field <- "_____________"
 Stat <- c("Elaborador", "Nome", "Função", sig.field, date.field)
@@ -71,10 +71,6 @@ colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
 # kable(sigs)
 ```
 
-```{r}
-source('scripts/results.R', encoding = 'UTF-8')
-```
-
 # Lista de abreviaturas
 
 - DM: Diabetes mellitus
@@ -82,6 +78,10 @@ source('scripts/results.R', encoding = 'UTF-8')
 - HAS: Hipertensão arterial sistêmica
 - HT: Hipotireoidismo
 - IVC:
+
+```{r carregar resultados}
+source('scripts/results.R', encoding = 'UTF-8')
+```
 
 # Introdução
 
