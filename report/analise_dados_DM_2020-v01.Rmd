@@ -144,7 +144,6 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 Vinte participantes foram incluídos neste estudo.
 A maioria destes eram homens (85%), com idade média de aproximadamente 55 anos (Tabela 1).
 Dentre as comorbidades avaliadas a hipertensão arterial foi a de maior prevalência ocorrendo em 9 participantes (45%).
-A enfermidade foi observada no lado dominante, tanto em participantes destros ou canhotos, em aproximadamente metade da amostra de estudo (55%).
 
 ```{r tabela1}
 pander(tab1)
@@ -157,6 +156,11 @@ DM: Diabetes mellitus;
 HAS: Hipertensão arterial sistêmica;
 HT: Hipotireoidismo;
 IVC:
+
+A enfermidade avaliada neste estudo foi observada no lado dominante em aproximadamente metade da amostra de estudo (55%), tanto em participantes destros ou canhotos.
+Se esta amostra fosse representativa, isto indicaria que não deve haver associação entre o lado acometido e possíveis observações funcionais sobre os indivíduos incluídos.
+Salientamos que além deste estudo (n = 20) ser muito pequeno para avaliar este tipo de hipótese, o estudo não foi desenho de modo a calcular a incidência.
+Assim esta observação reflete apenas o resultado de associação, e não causalidade.
 
 ```{r tabela2}
 pander(tab2, split.table = Inf)
