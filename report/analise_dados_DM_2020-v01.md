@@ -44,13 +44,65 @@ toc-title: "Sumário"
 
 # Lista de abreviaturas
 
+- DM: Diabetes mellitus
+- EVD:
+- HAS: Hipertensão arterial sistêmica
+- HT: Hipotireoidismo
+- IVC:
+
 # Introdução
 
 ## Objetivos
 
+Avaliar se há diferença entre uso de das técnicas de acesso cirúrgico volar e dorsal em indicadores clínicos.
+
 ## Recepção e tratamento dos dados
 
+Os dados recebidos foram reorganizados em uma tabela retangular, agrupando todos os casos em linhas com uma coluna por variável.
+A coluna ID foi redefinida de modo que haja um ID único para cada participante incluído no estudo, independente do grupo.
+Com isso, a tabela de dados analíticos aprensenta uma linha para cada observação das variáveis, i.e., cada um dos vinte participantes incluídos no estudo.
+
+As seguintes novas variáveis foram criadas a partir para a análise:
+
+- **EVD:** diferença entre EVD pré e pós (numérica)
+- **DOMINANTE:** se o lado acometido era o lado dominante do participante (dicotômica)
+
+As seguintes variáveis foram limpas para adequação nas análises:
+
+- **TEMPO ARTROSE:** convertida em valores numéricos
+  - valores possíveis: número (anos) ou célula vazia
+- **Comorbidades:** redefinidas como variáveis dicotômicas
+  - reorganizadas em colunas independentes
+  - valores possíveis: nome da comorbidade ou célula vazia
+- **RETORNO:** Esta coluna é repetida em todas as quatro planilhas
+  - foram utilizados as duas primeiras ocorrências deste dado:
+    - Folha 1 - Tabela 1 - Volar
+    - Folha 1 - Tabela 2 - Dorsal
+
 # Metodologia
+
+## Variáveis e desfechos analisados
+
+Foram avaliados quatro desfechos na comparação entre os dois grupos de participantes.
+O desfecho primário considerado foi a diferença na EVD pré e pós nos dois grupos.
+Além deste foram avaliados os seguintes desfechos secundários: Alteração degenerativa (artrose) bem como o tempo (em anos) para sua observação, o grau de satisfação e o retorno à profissão.
+
+Adicionalmente as seguintes características foram descritas para todos os participantes do estudo:
+Idade (em anos),
+Sexo (feminino/masculino),
+Acometimento no lado dominante
+e a presença de comorbidades (HAS, DM, Tabagismo, HT e IVC).
+
+## Análises estatísticas
+
+As variáveis numéricas foram descritas como média e desvio padrão.
+As variáveis categóricas foram descritas como frequência e proporção.
+As proporções foram apresentadas como porcentagem.
+A comparação de variáveis numéricas entre os dois grupos foi avaliada com o teste t de Student não pareado.
+O p-valor do teste t de student foi apresentado na tabela descritiva dos resultados
+A comparação de variáveis categóricas entre os dois grupos foi avaliada com o teste exato de Fisher.
+Todas as análises foram feitas com nível de significância de 5%.
+Todos os testes de significância e intervalos de confiança calculados foram bilaterais.
 
 Esta análise foi realizada utilizando-se o software `R` versão 4.0.3.
 
