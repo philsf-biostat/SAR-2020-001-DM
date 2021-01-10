@@ -71,10 +71,6 @@ colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
 # kable(sigs)
 ```
 
-```{r carregar resultados}
-source('scripts/results.R', encoding = 'UTF-8')
-```
-
 # Lista de abreviaturas
 
 - DM: Diabetes mellitus
@@ -82,6 +78,10 @@ source('scripts/results.R', encoding = 'UTF-8')
 - HAS: Hipertensão arterial sistêmica
 - HT: Hipotireoidismo
 - IVC:
+
+```{r carregar resultados}
+source('scripts/results.R', encoding = 'UTF-8')
+```
 
 # Introdução
 
