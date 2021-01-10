@@ -9,6 +9,14 @@ tab1.raw <- CreateTableOne(vars = covars,  data = dados)
 tab1 <- print(tab1.raw, exact = TRUE, printToggle = FALSE, dropEqual = TRUE, cramVars = "SEXO")
 colnames(tab1) <- NULL
 
+# tabela 2 - avaliação das vias cirúrgicas --------------------------------
+
+tab2.raw <- CreateTableOne(vars = desfechos, strata = "GRUPO", data = dados, addOverall = TRUE)
+tab2 <- print(tab2.raw, exact = TRUE, printToggle = FALSE, dropEqual = TRUE)
+tab2[, 5] <- c("", "¹", "¹", "²", "²", "¹")
+
+# obsoleto ----------------------------------------------------------------
+
 # # sexo será exibido com ambos os níveis
 # tab1.raw.sex <- CreateTableOne(vars = "SEXO",  data = dados)
 # tab1.sex <- print(tab1.raw.sex, exact = TRUE, printToggle = FALSE, showAllLevels = TRUE)
@@ -19,8 +27,3 @@ colnames(tab1) <- NULL
 # tab1 <- rbind(tab1.sex, tab1) # juntar as tabelas
 # rownames(tab1) <- tab1.names # restaurar rownames
 
-# tabela 2 - avaliação das vias cirúrgicas --------------------------------
-
-tab2.raw <- CreateTableOne(vars = desfechos, strata = "GRUPO", data = dados, addOverall = TRUE)
-tab2 <- print(tab2.raw, exact = TRUE, printToggle = FALSE, dropEqual = TRUE)
-tab2[, 5] <- c("", "¹", "¹", "²", "²", "¹")
