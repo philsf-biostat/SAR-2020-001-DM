@@ -10,4 +10,4 @@ tab1 <- print(tab1.raw, exact = TRUE, printToggle = FALSE)
 # tabela 2 - avaliação das vias cirúrgicas --------------------------------
 
 tab2.raw <- CreateTableOne(vars = desfechos, strata = "GRUPO", data = dados)
-tab2 <- print(tab2.raw, exact = TRUE)
+tab2 <- print(tab2.raw, exact = TRUE, printToggle = FALSE)
