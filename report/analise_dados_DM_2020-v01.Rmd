@@ -193,6 +193,10 @@ O tamanho de efeito observado nesta amostra foi d = `r format.float(d)`, enquant
 Isto não representa uma limitação metodológica deste estudo, especialmente considerando o contexto acadêmico em que se apresenta.
 Ainda assim é necessário ratificar que o mesmo não identifica evidências suficientes para uma mudança na assistência a esta enfermidade específica.
 
+Uma alteração foi feita neste relatório em relação ao que foi definido no SAP:
+o tempo até ocorrência de artrose seria apresentado apenas no perfil epidemiológico da amostra de estudo.
+Como esta variável deve ser semanticamente apresentada conjuntamente à ocorrência da artrose, ambas foram avaliadas e apresentadas no escopo da análise inferencial (tabela 2).
+
 # Conclusões
 
 
