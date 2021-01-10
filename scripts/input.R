@@ -9,7 +9,9 @@ dados <- data.table(read_excel("dataset/basedados_DM_2020.xlsx"))
 dados$EVD <- dados$`EVD PÓS` - dados$`EVD PRÉ`
 
 # Lado acometido é o lado dominante?
-dados[, DOMINANTE := `LADO ACOMETIDO` == `LADO DOMINANTE`]
+dados[, DOMINANTE := as.character(`LADO ACOMETIDO` == `LADO DOMINANTE`)]
+dados[DOMINANTE == TRUE, DOMINANTE := "SIM"]
+dados[DOMINANTE == FALSE, DOMINANTE := "NÃO"]
 
 # data cleaning -----------------------------------------------------------
 
