@@ -57,7 +57,7 @@ Esta análise foi realizada utilizando-se o software `R` versão 4.0.3.
 # Resultados
 
 
-|                       |                  |
+|        &nbsp;         |     Overall      |
 |:---------------------:|:----------------:|
 |         **n**         |        20        |
 | **IDADE (mean (SD))** |  54.85 (11.08)   |
