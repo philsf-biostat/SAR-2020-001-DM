@@ -77,6 +77,12 @@ source('scripts/results.R', encoding = 'UTF-8')
 
 # Lista de abreviaturas
 
+- DM: Diabetes mellitus
+- EVD:
+- HAS: Hipertensão arterial sistêmica
+- HT: Hipotireoidismo
+- IVC:
+
 # Introdução
 
 ## Objetivos
