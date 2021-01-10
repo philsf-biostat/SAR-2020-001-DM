@@ -126,7 +126,7 @@ Sexo (feminino/masculino),
 Acometimento no lado dominante
 e a presença de comorbidades (HAS, DM, Tabagismo, HT e IVC).
 
-## Métodos estatísticos
+## Análises estatísticas
 
 As variáveis numéricas foram descritas como média e desvio padrão.
 As variáveis categóricas foram descritas como frequência e proporção.
