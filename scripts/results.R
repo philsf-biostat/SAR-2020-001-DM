@@ -4,8 +4,8 @@ library(tableone)
 
 # tabela 1 - características dos participantes ----------------------------
 
-tab1.raw <- CreateTableOne(vars = covars, strata = "GRUPO", data = dados)
-tab1 <- print(tab1.raw, exact = TRUE)
+tab1.raw <- CreateTableOne(vars = covars,  data = dados)
+tab1 <- print(tab1.raw, exact = TRUE, printToggle = FALSE)
 
 # tabela 2 - avaliação das vias cirúrgicas --------------------------------
 
