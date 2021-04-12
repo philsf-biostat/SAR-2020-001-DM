@@ -17,8 +17,8 @@ título
 [proj-desc]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/aaa
 [proj-inf]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/bbb
 [proj-mod]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/ccc
-[sapviz-v01]: report/SAP_analise_dados_DM_2020-v01.pdf
-[sappdf-v01]: report/SAP_analise_dados_DM_2020-v01.pdf
+[sapviz-v01]: report/SAP_analise_dados_DM_2020-v01.md
+[sappdf-v01]: report/SAP_analise_dados_DM_2020-v01.pdf?raw=true
 
 ## Relatório da análise de dados
 
