@@ -4,14 +4,13 @@ Análise estatística de estudo de carpectomias comparando vias de acesso dorsal
 
 ## Análises realizadas
 
-1. Análise descritiva ([Planejamento][proj-desc])
-2. Análise inferencial ([Planejamento][proj-inf])
-3. Modelagem ([Planejamento][proj-mod])
+1. Análise descritiva
+2. Análise inferencial
+<!-- 3. Modelagem -->
 
-**SAP** - Concluído
+**SAP** -- Plano de Análises Estatísticas
 
 - [Visualização][sapviz-v01]
-<!-- - Download -->
 - [Download][sappdf-v01]
 
 [proj-desc]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/aaa
@@ -37,8 +36,8 @@ Análise estatística de estudo de carpectomias comparando vias de acesso dorsal
 [Planejamento][v01-project].
 
 - [Visualização online][reportviz-v01]
-- Download
-<!-- - [Download][pdf-v01] -->
+- [Download][pdf-v01]
+<!-- - Download -->
 
 
 [releases]: https://github.com/philsf-biostat/analise_dados_DM_2020/releases/
