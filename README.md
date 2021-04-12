@@ -6,6 +6,7 @@ Análise estatística de estudo de carpectomias comparando vias de acesso dorsal
 
 1. Análise descritiva
 2. Análise inferencial
+3. Análise de poder
 <!-- 3. Modelagem -->
 
 **SAP** -- Plano de Análises Estatísticas
