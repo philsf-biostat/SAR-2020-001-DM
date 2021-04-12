@@ -1,4 +1,4 @@
-# Análise de Dados projeto xxx (Local, aaaa)
+# Análise de Dados projeto analise_dados_DM_2020 (Local, aaaa)
 
 título
 
@@ -8,9 +8,9 @@ título
 2. Análise inferencial ([Planejamento][proj-inf])
 3. Modelagem ([Planejamento][proj-mod])
 
-[proj-desc]: https://github.com/philsf-biostat/xxx/projects/aaa
-[proj-inf]: https://github.com/philsf-biostat/xxx/projects/bbb
-[proj-mod]: https://github.com/philsf-biostat/xxx/projects/ccc
+[proj-desc]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/aaa
+[proj-inf]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/bbb
+[proj-mod]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/ccc
 
 ## Relatório da análise de dados
 
@@ -33,15 +33,15 @@ título
 <!-- - [Download][pdf-v01] -->
 
 
-[releases]: https://github.com/philsf-biostat/xxx/releases/
-[milestone-v01]: https://github.com/philsf-biostat/xxx/milestone/mmm01
-[reportviz-v01]: report/xxx-v01.md
-[docx-v01]: report/xxx-v01.docx?raw=true
-[pdf-v01]: report/xxx-v01.pdf?raw=true
-[v01-project]: https://github.com/philsf-biostat/xxx/projects/ppp01
+[releases]: https://github.com/philsf-biostat/analise_dados_DM_2020/releases/
+[milestone-v01]: https://github.com/philsf-biostat/analise_dados_DM_2020/milestone/mmm01
+[reportviz-v01]: report/analise_dados_DM_2020-v01.md
+[docx-v01]: report/analise_dados_DM_2020-v01.docx?raw=true
+[pdf-v01]: report/analise_dados_DM_2020-v01.pdf?raw=true
+[v01-project]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/ppp01
 
-[milestone-v02]: https://github.com/philsf-biostat/xxx/milestone/mmm02
-[reportviz-v02]: report/xxx-v02.md
-[docx-v02]: report/xxx-v02.docx?raw=true
-[pdf-v02]: report/xxx-v02.pdf?raw=true
-[v02-project]: https://github.com/philsf-biostat/xxx/projects/ppp02
+[milestone-v02]: https://github.com/philsf-biostat/analise_dados_DM_2020/milestone/mmm02
+[reportviz-v02]: report/analise_dados_DM_2020-v02.md
+[docx-v02]: report/analise_dados_DM_2020-v02.docx?raw=true
+[pdf-v02]: report/analise_dados_DM_2020-v02.pdf?raw=true
+[v02-project]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/ppp02
