@@ -31,7 +31,7 @@ Análise estatística de estudo de carpectomias comparando vias de acesso dorsal
 <!-- - Download -->
 <!-- - [Download][pdf-v02] -->
 
-**Versão 01** - [Em elaboração][milestone-v01].
+**Versão 01** - [Concluído][milestone-v01].
 
 [Planejamento][v01-project].
 
