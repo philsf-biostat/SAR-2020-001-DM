@@ -42,11 +42,11 @@ título
 
 
 [releases]: https://github.com/philsf-biostat/analise_dados_DM_2020/releases/
-[milestone-v01]: https://github.com/philsf-biostat/analise_dados_DM_2020/milestone/mmm01
+[milestone-v01]: https://github.com/philsf-biostat/analise_dados_DM_2020/milestone/2
 [reportviz-v01]: report/analise_dados_DM_2020-v01.md
 [docx-v01]: report/analise_dados_DM_2020-v01.docx?raw=true
 [pdf-v01]: report/analise_dados_DM_2020-v01.pdf?raw=true
-[v01-project]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/ppp01
+[v01-project]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/1
 
 [milestone-v02]: https://github.com/philsf-biostat/analise_dados_DM_2020/milestone/mmm02
 [reportviz-v02]: report/analise_dados_DM_2020-v02.md
