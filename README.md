@@ -1,6 +1,6 @@
-# Análise de Dados projeto analise_dados_DM_2020 (Residência INTO, 2021)
+# Análise estatística de estudo de carpectomias comparando vias de acesso dorsal e volar
 
-Análise estatística de estudo de carpectomias comparando vias de acesso dorsal e volar
+Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 
 ## Análises realizadas
 
