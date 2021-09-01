@@ -14,11 +14,11 @@ Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 - [Visualização][sapviz-v01]
 - [Download][sappdf-v01]
 
-[proj-desc]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/aaa
-[proj-inf]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/bbb
-[proj-mod]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/ccc
-[sapviz-v01]: report/SAP_analise_dados_DM_2020-v01.md
-[sappdf-v01]: report/SAP_analise_dados_DM_2020-v01.pdf?raw=true
+[proj-desc]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/aaa
+[proj-inf]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/bbb
+[proj-mod]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/ccc
+[sapviz-v01]: report/SAP-2020-001-DM-v01.md
+[sappdf-v01]: report/SAP-2020-001-DM-v01.pdf?raw=true
 
 ## Relatório da análise de dados
 
@@ -41,15 +41,15 @@ Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 <!-- - Download -->
 
 
-[releases]: https://github.com/philsf-biostat/analise_dados_DM_2020/releases/
-[milestone-v01]: https://github.com/philsf-biostat/analise_dados_DM_2020/milestone/2
-[reportviz-v01]: report/analise_dados_DM_2020-v01.md
-[docx-v01]: report/analise_dados_DM_2020-v01.docx?raw=true
-[pdf-v01]: report/analise_dados_DM_2020-v01.pdf?raw=true
-[v01-project]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/1
+[releases]: https://github.com/philsf-biostat/SAR-2020-001-DM/releases/
+[milestone-v01]: https://github.com/philsf-biostat/SAR-2020-001-DM/milestone/2
+[reportviz-v01]: report/SAR-2020-001-DM-v01.md
+[docx-v01]: report/SAR-2020-001-DM-v01.docx?raw=true
+[pdf-v01]: report/SAR-2020-001-DM-v01.pdf?raw=true
+[v01-project]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/1
 
-[milestone-v02]: https://github.com/philsf-biostat/analise_dados_DM_2020/milestone/mmm02
-[reportviz-v02]: report/analise_dados_DM_2020-v02.md
-[docx-v02]: report/analise_dados_DM_2020-v02.docx?raw=true
-[pdf-v02]: report/analise_dados_DM_2020-v02.pdf?raw=true
-[v02-project]: https://github.com/philsf-biostat/analise_dados_DM_2020/projects/ppp02
+[milestone-v02]: https://github.com/philsf-biostat/SAR-2020-001-DM/milestone/mmm02
+[reportviz-v02]: report/SAR-2020-001-DM-v02.md
+[docx-v02]: report/SAR-2020-001-DM-v02.docx?raw=true
+[pdf-v02]: report/SAR-2020-001-DM-v02.pdf?raw=true
+[v02-project]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/ppp02
