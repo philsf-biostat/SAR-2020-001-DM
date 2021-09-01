@@ -126,10 +126,7 @@ tab.dados <- tibble::tibble(
   "Lado dominante" = "",
   "Lado acometido" = "",
   "Dominante" = "",
-  Artrose = "",
-  "Tempo artrose" = "",
-  "Statisfação" = "",
-  "Retorno" = ""
+  Artrose = ""
   )
 pander(tab.dados, split.table = Inf)
 ```
@@ -143,6 +140,9 @@ tab.dados.comorb <- tibble::tibble(
   ID = c(1:3, "...", 20),
 
   "(colunas tabela 1...)" = "",
+  "Tempo artrose" = "",
+  "Statisfação" = "",
+  "Retorno" = "",
   HAS = "",
   DM = "",
   TABAGISMO = "",
@@ -260,5 +260,11 @@ Esta análise será realizada utilizando-se o software `R` versão 4.0.3.
 
 - Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Hillsdale,NJ: Lawrence Erlbaum.
  
-<!-- # Apêndice -->
+# Apêndice
+
+## Disponibilidade
+
+Tanto este plano analítico como o relatório correspondente (**SAR-2020-001-DM-v01**) podem ser obtidos no seguinte endereço:
+
+`https://github.com/philsf-biostat/SAR-2020-001-DM/`
 
