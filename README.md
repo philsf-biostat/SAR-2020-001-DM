@@ -13,9 +13,7 @@ Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 
 ## Documentos
 
-## Plano de Análise Estatística
-
-**SAP** - Plano de Análise Estatística
+### Plano Analítico (SAP)
 
 - [Visualização online][sapviz-v01]
 - [Download][sappdf-v01]
@@ -26,7 +24,7 @@ Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 [sapviz-v01]: report/SAP-2020-001-DM-v01.md
 [sappdf-v01]: report/SAP-2020-001-DM-v01.pdf?raw=true
 
-## Relatório de Análise Estatística
+### Relatório de Análise Estatística (SAR)
 
 <!-- [Ver as etapas desta análise][releases]. -->
 
