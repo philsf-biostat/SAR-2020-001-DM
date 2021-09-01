@@ -1,5 +1,7 @@
 # Análise estatística de estudo de carpectomias comparando vias de acesso dorsal e volar
 
+Avaliar se há diferença entre uso de das técnicas de acesso cirúrgico volar e dorsal em indicadores clínicos.
+
 Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 
 ## Análises realizadas
@@ -9,9 +11,13 @@ Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 3. Análise de poder
 <!-- 3. Modelagem -->
 
-**SAP** -- Plano de Análises Estatísticas
+## Documentos
 
-- [Visualização][sapviz-v01]
+## Plano de Análise Estatística
+
+**SAP** - Plano de Análise Estatística
+
+- [Visualização online][sapviz-v01]
 - [Download][sappdf-v01]
 
 [proj-desc]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/aaa
@@ -20,9 +26,9 @@ Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 [sapviz-v01]: report/SAP-2020-001-DM-v01.md
 [sappdf-v01]: report/SAP-2020-001-DM-v01.pdf?raw=true
 
-## Relatório da análise de dados
+## Relatório de Análise Estatística
 
-[Ver as etapas desta análise][releases].
+<!-- [Ver as etapas desta análise][releases]. -->
 
 <!-- **Versão 02** - [Em elaboração][milestone-v02]. -->
 
@@ -33,8 +39,6 @@ Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 <!-- - [Download][pdf-v02] -->
 
 **Versão 01** - [Concluído][milestone-v01].
-
-[Planejamento][v01-project].
 
 - [Visualização online][reportviz-v01]
 - [Download][pdf-v01]
