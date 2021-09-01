@@ -1,7 +1,8 @@
 ---
-title: "Plano de Análise Estatística de estudo de carpectomias comparando vias de acesso dorsal e volar"
+title: "Plano Analítico de Análise estatística de estudo de carpectomias comparando vias de acesso dorsal e volar"
+subtitle: 'DOCUMENTO: SAP-2020-001-DM-v01'
 author: '**De:** Felipe Figueiredo **Para:** Diego Rezende Martins'
-date: '**Data: ** 07/01/2021'
+date: '**Data:** 07/01/2021'
 output:
   html_document:
     fig_caption: yes
@@ -17,9 +18,8 @@ output:
     fig_caption: yes
     fig_height: 6
     fig_width: 6
-    reference_docx: misc/SAP-style.docx
+    reference_docx: misc/style_SAP_pt.docx
     toc: yes
-subtitle: 'SAP: analise_dados_DM_2020-v01'
 toc-title: "Sumário"
 ---
 
@@ -248,7 +248,7 @@ Por outro lado, se estipularmos o nível de poder tipicamente encontrado na lite
 
 ## Softwares utilizados
 
-Esta análise será realizada utilizando-se o software `R` versão `r getRversion()`.
+Esta análise será realizada utilizando-se o software `R` versão 4.0.3.
 
 <!-- # Resultados -->
 
