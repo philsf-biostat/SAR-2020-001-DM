@@ -7,9 +7,9 @@ Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 ## Análises realizadas
 
 1. Análise descritiva
-2. Análise inferencial
-3. Análise de poder
-<!-- 3. Modelagem -->
+1. Análise inferencial
+1. Análise de poder
+<!-- 1. Modelagem estatística -->
 
 ## Documentos
 
@@ -18,30 +18,22 @@ Análise de Dados projeto Diego Martins (Residência INTO, 2021)
 - [Visualização online][sapviz-v01]
 - [Download][sappdf-v01]
 
-[proj-desc]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/aaa
-[proj-inf]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/bbb
-[proj-mod]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/ccc
-[sapviz-v01]: report/SAP-2020-001-DM-v01.md
-[sappdf-v01]: report/SAP-2020-001-DM-v01.pdf?raw=true
-
 ### Relatório de Análise Estatística (SAR)
-
-<!-- [Ver as etapas desta análise][releases]. -->
-
-<!-- **Versão 02** - [Em elaboração][milestone-v02]. -->
-
-<!-- [Planejamento][v02-project]. -->
 
 <!-- - [Visualização online][reportviz-v02] -->
 <!-- - Download -->
 <!-- - [Download][pdf-v02] -->
 
-**Versão 01** - [Concluído][milestone-v01].
-
 - [Visualização online][reportviz-v01]
 - [Download][pdf-v01]
 <!-- - Download -->
 
+
+[proj-desc]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/aaa
+[proj-inf]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/bbb
+[proj-mod]: https://github.com/philsf-biostat/SAR-2020-001-DM/projects/ccc
+[sapviz-v01]: report/SAP-2020-001-DM-v01.md
+[sappdf-v01]: report/SAP-2020-001-DM-v01.pdf?raw=true
 
 [releases]: https://github.com/philsf-biostat/SAR-2020-001-DM/releases/
 [milestone-v01]: https://github.com/philsf-biostat/SAR-2020-001-DM/milestone/2
