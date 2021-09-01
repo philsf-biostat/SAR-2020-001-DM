@@ -1,7 +1,8 @@
 ---
-title: "Plano de Análise Estatística de estudo de carpectomias comparando vias de acesso dorsal e volar"
+title: "Plano Analítico de Análise estatística de estudo de carpectomias comparando vias de acesso dorsal e volar"
+subtitle: 'DOCUMENTO: SAP-2020-001-DM-v01'
 author: '**De:** Felipe Figueiredo **Para:** Diego Rezende Martins'
-date: '**Data: ** 07/01/2021'
+date: '**Data:** 07/01/2021'
 output:
   html_document:
     fig_caption: yes
@@ -17,28 +18,58 @@ output:
     fig_caption: yes
     fig_height: 6
     fig_width: 6
-    reference_docx: misc/SAP-style.docx
+    reference_docx: misc/style_SAP_pt.docx
     toc: yes
-subtitle: 'SAP: analise_dados_DM_2020-v01'
 toc-title: "Sumário"
 ---
 
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_knit$set(root.dir = normalizePath(".."))
+options(scipen = 999)
+library(pander)
+library(knitr)
+library(philsfmisc)
+panderOptions('table.style', 'rmarkdown')
+```
 
 ---
 
 **Histórico do documento**
 
-
-|Versão |Alterações     |
-|:------|:--------------|
-|01     |Versão inicial |
+```{r, echo = FALSE}
+Version <- c("01")
+Changes <- c("Versão inicial")
+history <- cbind(Version, Changes)
+colnames(history) <- c("Versão", "Alterações")
+# pander(history, split.cells = 70)
+kable(history)
+```
 
 ---
 
 <!-- **Assinaturas** -->
 
+```{r, echo=FALSE}
+sig.field <- "__________________________"
+date.field <- "_____________"
+Stat <- c("Elaborador", "Nome", "Função", sig.field, date.field)
+Reviewer <- c("Revisado por", "", "", sig.field, date.field)
+Approver <- c("Verificado por", "", "", sig.field, date.field)
+Final.Approver <- c("Aprovação final", "", "", sig.field, date.field)
 
+sigs <- rbind(
+  Stat
+  , Reviewer
+  , Approver
+  , Final.Approver
+  )
+rownames(sigs) <- NULL
+colnames(sigs) <- c("Papel", "Nome", "Função", "Assinatura", "Data")
+
+# pander(sigs, split.cells = c(9, 14, 14, 16, 8), split.table = Inf)
+# kable(sigs)
+```
 
 # Lista de abreviaturas
 
@@ -83,27 +114,43 @@ As seguintes variáveis serão limpas para adequação nas análises:
 
 A tabela de dados analíticos será criada de acordo com a seguinte estrutura da Tabela 1.
 
-
-| ID  | Idade | Sexo | Grupo | EVD Pré | EVD Pós | EVD dif | Lado dominante | Lado acometido | Dominante | Artrose | Tempo artrose | Statisfação | Retorno |
-|:---:|:-----:|:----:|:-----:|:-------:|:-------:|:-------:|:--------------:|:--------------:|:---------:|:-------:|:-------------:|:-----------:|:-------:|
-|  1  |       |      |       |         |         |         |                |                |           |         |               |             |         |
-|  2  |       |      |       |         |         |         |                |                |           |         |               |             |         |
-|  3  |       |      |       |         |         |         |                |                |           |         |               |             |         |
-| ... |       |      |       |         |         |         |                |                |           |         |               |             |         |
-| 20  |       |      |       |         |         |         |                |                |           |         |               |             |         |
+```{r tab.dados}
+tab.dados <- tibble::tibble(
+  ID = c(1:3, "...", 20),
+  Idade = "",
+  Sexo = "",
+  Grupo = "",
+  "EVD Pré" = "",
+  "EVD Pós" = "",
+  "EVD dif" = "",
+  "Lado dominante" = "",
+  "Lado acometido" = "",
+  "Dominante" = "",
+  Artrose = ""
+  )
+pander(tab.dados, split.table = Inf)
+```
 
 Table: **Tabela 1** Estrutura da nova tabela de dados analíticos
 
 As colunas de comorbidades serão acrescentadas à tabela de dados, seguindo a estrutura apresentada na Tabela 2.
 
+```{r tab.dados.comorb}
+tab.dados.comorb <- tibble::tibble(
+  ID = c(1:3, "...", 20),
 
-| ID  | (colunas tabela 1...) | HAS | DM | TABAGISMO | HT | IVC |
-|:---:|:---------------------:|:---:|:--:|:---------:|:--:|:---:|
-|  1  |                       |     |    |           |    |     |
-|  2  |                       |     |    |           |    |     |
-|  3  |                       |     |    |           |    |     |
-| ... |                       |     |    |           |    |     |
-| 20  |                       |     |    |           |    |     |
+  "(colunas tabela 1...)" = "",
+  "Tempo artrose" = "",
+  "Statisfação" = "",
+  "Retorno" = "",
+  HAS = "",
+  DM = "",
+  TABAGISMO = "",
+  HT = "",
+  IVC = ""
+  )
+pander(tab.dados.comorb, split.table = Inf)
+```
 
 Table: **Tabela 2** Representação das comorbidades na tabela de dados analíticos
 
@@ -153,7 +200,9 @@ A análise descritiva será dividida em duas tabelas:
 
 Ambas as tabelas apresentarão os dados estratificados nos dois grupos.
 
+```{r tab.descr}
 
+```
 
 ### Análise inferencial
 
@@ -162,7 +211,9 @@ O p-valor do teste t de student será apresentado na tabela descritiva dos resul
 
 A comparação de variáveis categóricas entre os dois grupos será avaliada com o teste exato de Fisher.
 
+```{r tab.res}
 
+```
 
 
 <!-- ### Modelagem estatística -->
@@ -174,7 +225,13 @@ Todos os testes de significância e intervalos de confiança calculados serão b
 
 ## Tamanho da amostra e Poder
 
-
+```{r}
+library(pwr)
+n <- 10
+ES.large <- pwr.t.test(n = 10, d = 0.8)
+ES.study <- pwr.t.test(n = 10, power = 0.8)
+# s/m/l = .2/.5/.8
+```
 
 O desfecho primário deste estudo é uma variável numérica e será analisada com o teste t de Student.
 Na ausência de estimativas prévias da média e desvio padrão do desfecho primário (EVD) a análise de poder só pode ser feita usando-se o método de Cohen (Cohen, 1988) de tamanho de efeito padronizado.
@@ -184,8 +241,8 @@ Esta abordagem utiliza apenas os dados obtidos na amostra de estudo e Cohen suge
 - efeito médio: d = 0.5
 - efeito grande: d = 0.8
 
-Com 10 participantes incluídos em cada grupo, este estudo é capaz de detectar um tamanho de efeito grande (d = 0.8) com poder de 39.5% e significância de 5%.
-Por outro lado, se estipularmos o nível de poder tipicamente encontrado na literatura de 80%, o efeito padronizado precisa ser pelo menos 1.32 para que este estudo possa detectá-lo com significância de 5%.
+Com `r n` participantes incluídos em cada grupo, este estudo é capaz de detectar um tamanho de efeito grande (d = 0.8) com poder de `r format.pct(ES.large$power)` e significância de 5%.
+Por outro lado, se estipularmos o nível de poder tipicamente encontrado na literatura de 80%, o efeito padronizado precisa ser pelo menos `r format.float(ES.study$d)` para que este estudo possa detectá-lo com significância de 5%.
 
 É pouco provável que esta amostra seja suficiente para detectar um efeito estatisticamente significativo entre os grupos.
 
@@ -203,5 +260,11 @@ Esta análise será realizada utilizando-se o software `R` versão 4.0.3.
 
 - Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Hillsdale,NJ: Lawrence Erlbaum.
  
-<!-- # Apêndice -->
+# Apêndice
+
+## Disponibilidade
+
+Tanto este plano analítico como o relatório correspondente (**SAR-2020-001-DM-v01**) podem ser obtidos no seguinte endereço:
+
+`https://github.com/philsf-biostat/SAR-2020-001-DM/`
 
